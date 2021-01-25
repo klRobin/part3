@@ -1,0 +1,92 @@
+html {
+  scroll-behavior: smooth; }
+
+nav {
+  background: #fff; }
+
+ul li a {
+  font-weight: 500;
+  color: black;
+  transition: .5s; }
+
+ul li a:hover {
+  color: #ffc480 !important; }
+
+.active {
+  color: #ffc480 !important; }
+
+.btn {
+  border-radius: 22.5px;
+  width: 130px; }
+
+.hunter {
+  border-radius: 22.5px;
+  width: 150px; }
+
+.header-main-section {
+  background-image: url("../image/badon.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  width: 100%; }
+
+h2 {
+  font-weight: 700 !important; }
+
+.admission-main-section {
+  position: relative;
+  background-image: url("../image/himel8.jpg");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 200px; }
+  .admission-main-section i.fa.fa-play {
+    border-radius: 50%;
+    background: #ffc178;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    color: #fff; }
+  .admission-main-section .multiple {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+  .admission-main-section .counter {
+    font-size: 20px;
+    font-weight: 500; }
+
+.pages-section .card {
+  transition: 0.5s; }
+
+.pages-section .card:hover {
+  box-shadow: inset 0 0 5px #635a5a27; }
+  .pages-section .card:hover h3 {
+    font-size: 28px; }
+
+.contact-section a {
+  background: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center; }
+
+.contact-section .fa {
+  transition: .5s; }
+
+.contact-section .fa:hover {
+  transform: rotate(360deg); }
+
+@media (max-width: 767px) {
+  .admission-main-section {
+    background-image: none; }
+  .contact-section {
+    text-align: center; }
+  .header-main-section {
+    background-image: none;
+    display: flex;
+    align-items: center;
+    line-height: 50px; } }
